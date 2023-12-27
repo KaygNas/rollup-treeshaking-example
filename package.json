@@ -1,0 +1,20 @@
+{
+  "name": "bundle-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "yapi-to-typescript": "^3.37.1"
+  },
+  "dependencies": {
+    "@daip-calligraphy/frontend-shared": "^7.5.4",
+    "@daip-calligraphy/frontend-shared-api": "^3.7.0-20231030.0"
+  }
+}
