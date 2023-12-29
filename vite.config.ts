@@ -6,8 +6,8 @@ export default defineConfig(() => {
       rollupOptions: {
         output: {
           manualChunks(id) {
-            if (id.includes('yapi')) return 'yapi'
-            if (id.includes('frontend-shared-api')) return 'frontend-shared-api'
+            if (id.includes('src')) return 'index'
+            else return 'vendor'
           }
         }
       },

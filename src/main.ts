@@ -1,3 +1,3 @@
-import {getApiV2BackendJobsExportFile} from './frontend-shared-api'
+import { print } from './module-a'
 
-getApiV2BackendJobsExportFile({});
+print()
